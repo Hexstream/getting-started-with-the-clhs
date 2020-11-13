@@ -71,11 +71,11 @@
 
         <p>It's the primary authoritative free reference used in practice by Common Lisp users and implementors alike.<br />It comprehensively describes the semantics of Common Lisp in great details.</p>
 
-        <p><strong>Note however that it's not <a href="http://gigamonkeys.com/book/">a tutorial</a></strong>. You'll nevertheless need to spend a great many hours reading it if you're ever to achieve Common Lisp mastery. I also offer <a href="https://notes-and-tips.hexstreamsoft.com/">this article of mine</a> which, despite being incomplete, offers many useful tips and makes it easier to find groups of logically related symbols.</p>
+        <p><strong>Note however that it's not <a href="http://gigamonkeys.com/book/" target="_blank">a tutorial</a></strong>. You'll nevertheless need to spend a great many hours reading it if you're ever to achieve Common Lisp mastery. I also offer <a href="https://notes-and-tips.hexstreamsoft.com/">this article of mine</a> which, despite being incomplete, offers many useful tips and makes it easier to find groups of logically related symbols.</p>
 
-        <p>The only source of information that would be even more authoritative than the <abbr>CLHS</abbr> is the text of the ANSI standard itself, however it's much less accessible in more ways than one: it must be <a href="http://webstore.ansi.org/RecordDetail.aspx?sku=ANSI+INCITS+226-1994+(R2004)">bought from ANSI</a>, it's not easily searchable or browsable (because it's a PDF) and <a href="http://symbo1ics.com/blog/?p=431">it's even a low-quality scan</a>.</p>
+        <p>The only source of information that would be even more authoritative than the <abbr>CLHS</abbr> is the text of the ANSI standard itself, however it's much less accessible in more ways than one: it must be <a href="http://webstore.ansi.org/RecordDetail.aspx?sku=ANSI+INCITS+226-1994+(R2004)" target="_blank">bought from ANSI</a>, it's not easily searchable or browsable (because it's a PDF) and <a href="http://symbo1ics.com/blog/?p=431" target="_blank">it's even a low-quality scan</a>.</p>
 
-        <p><a href="http://www.lispworks.com/documentation/common-lisp.html">Lispworks provides the official introduction to the <abbr>CLHS</abbr></a>.</p>
+        <p><a href="http://www.lispworks.com/documentation/common-lisp.html" target="_blank">Lispworks provides the official introduction to the <abbr>CLHS</abbr></a>.</p>
 
       </section>
 
@@ -90,13 +90,13 @@
           </span>
         </h1>
 
-        <p><a href="http://www.nhplace.com/kent/">Kent Pitman</a>, with funding from <a href="http://www.lispworks.com/">LispWorks</a> and authorization from <a href="http://www.ansi.org/">ANSI</a>, mechanically derived the <abbr>CLHS</abbr> from the <a href="http://en.wikipedia.org/wiki/TeX">TeX</a> sources of the ANSI Common Lisp standard.</p>
+        <p><a href="http://www.nhplace.com/kent/" target="_blank">Kent Pitman</a>, with funding from <a href="http://www.lispworks.com/" target="_blank">LispWorks</a> and authorization from <a href="http://www.ansi.org/" target="_blank">ANSI</a>, mechanically derived the <abbr>CLHS</abbr> from the <a href="http://en.wikipedia.org/wiki/TeX" target="_blank">TeX</a> sources of the ANSI Common Lisp standard.</p>
 
         <p>Lispworks Ltd owns the copyright on the <abbr>CLHS</abbr>.</p>
 
         <p>Common Lisp HyperSpec is a trademark of Lispworks Ltd.</p>
 
-        <p><a href="http://www.lispworks.com/documentation/HyperSpec/Front/Help.htm#Authorship"> A more formal and authoritative description is available in the <abbr>CLHS</abbr>.</a></p>
+        <p><a href="http://www.lispworks.com/documentation/HyperSpec/Front/Help.htm#Authorship" target="_blank">A more formal and authoritative description is available in the <abbr>CLHS</abbr>.</a></p>
 
       </section>
 
@@ -111,9 +111,9 @@
           </span>
         </h1>
 
-        <p>The canonical online location is: <a href="http://www.lispworks.com/documentation/HyperSpec/Front/index.htm">http://www.lispworks.com/documentation/HyperSpec/Front/index.htm</a></p>
+        <p>The canonical online location is: <a href="http://www.lispworks.com/documentation/HyperSpec/Front/index.htm" target="_blank">http://www.lispworks.com/documentation/HyperSpec/Front/index.htm</a></p>
 
-        <p>The <a href="http://www.lispworks.com/documentation/HyperSpec/Front/Help.htm#Legal"><abbr>CLHS</abbr> license</a> prohibits redistribution on the web (among other things), so make sure you access and reference this particular online copy of the <abbr>CLHS</abbr> when sharing links with others.</p>
+        <p>The <a href="http://www.lispworks.com/documentation/HyperSpec/Front/Help.htm#Legal" target="_blank"><abbr>CLHS</abbr> license</a> prohibits redistribution on the web (among other things), so make sure you access and reference this particular online copy of the <abbr>CLHS</abbr> when sharing links with others.</p>
 
       </section>
 
@@ -128,15 +128,15 @@
           </span>
         </h1>
 
-        <p>Yes, LispWorks allows this. They have some <a href="http://www.lispworks.com/documentation/common-lisp.html">official installation instructions</a>. However, since 9 February 2012, there's a much easier and faster way to install and configure the <abbr>CLHS</abbr> locally, as it's now available in Quicklisp:</p>
+        <p>Yes, LispWorks allows this. They have some <a href="http://www.lispworks.com/documentation/common-lisp.html" target="_blank">official installation instructions</a>. However, since 9 February 2012, there's a much easier and faster way to install and configure the <abbr>CLHS</abbr> locally, as it's now available in Quicklisp:</p>
 
         <ol>
-          <li><p>First, install <a href="http://www.quicklisp.org/">Quicklisp</a> if you don't have it already. It's very easy, and pretty much required anyway.</p></li>
+          <li><p>First, install <a href="http://www.quicklisp.org/" target="_blank">Quicklisp</a> if you don't have it already. It's very easy, and pretty much required anyway.</p></li>
 
           <li><p>Then, run <code>(ql:quickload "clhs")</code> in the REPL. The first time you run this command, it will download, install and load the <a href="https://www.hexstreamsoft.com/libraries/clhs/"><abbr>CLHS</abbr> ASDF wrapper</a>. A full copy of the <abbr>CLHS</abbr> will be downloaded as a side-effect.</p></li>
 
           <li>
-            <p>Finally, assuming you're using <a href="http://www.gnu.org/software/emacs/">Emacs</a>+<a href="http://common-lisp.net/project/slime/">Slime</a>, all that's left to do is to tell Emacs to use your local copy of the <abbr>CLHS</abbr> instead of the online version on LispWorks' site.</p>
+            <p>Finally, assuming you're using <a href="http://www.gnu.org/software/emacs/" target="_blank">Emacs</a>+<a href="http://common-lisp.net/project/slime/" target="_blank">Slime</a>, all that's left to do is to tell Emacs to use your local copy of the <abbr>CLHS</abbr> instead of the online version on LispWorks' site.</p>
 
             <p>Run <code>(clhs:print-emacs-setup-form)</code> in the <abbr title="Read-Eval-Print-Loop">REPL</abbr> and follow the instructions.</p>
 
@@ -175,24 +175,24 @@
 
         <p>One drawback of using a local copy of the CLHS is that you can't directly use the URL of the page to share on the web or IRC. You'll need to translate the local URL to the canonical Lispworks URL, somehow.</p>
 
-        <p>I like to use Zach Beane's <a href="http://l1sp.org/">l1sp.org redirection service</a> for this.</p>
+        <p>I like to use Zach Beane's <a href="http://l1sp.org/" target="_blank">l1sp.org redirection service</a> for this.</p>
 
-        <p>For instance, <a href="http://l1sp.org/cl/function">l1sp.org/cl/function</a> will redirect you to the <a href="http://www.lispworks.com/documentation/HyperSpec/Body/a_fn.htm"><code>function</code> disambiguation page on LispWorks' site</a>.</p>
+        <p>For instance, <a href="http://l1sp.org/cl/function" target="_blank">l1sp.org/cl/function</a> will redirect you to the <a href="http://www.lispworks.com/documentation/HyperSpec/Body/a_fn.htm" target="_blank"><code>function</code> disambiguation page on LispWorks' site</a>.</p>
 
         <p>Some other examples are:</p>
 
         <dl class="scroll">
-          <dt><a href="http://l1sp.org/cl/glossary/form">l1sp.org/cl/glossary/form</a></dt>
+          <dt><a href="http://l1sp.org/cl/glossary/form" target="_blank">l1sp.org/cl/glossary/form</a></dt>
           <dd>
-            <a href="http://www.lispworks.com/documentation/HyperSpec/Body/26_glo_f.htm#form">http://www.lispworks.com/documentation/HyperSpec/Body/26_glo_f.htm#form</a>
+            <a href="http://www.lispworks.com/documentation/HyperSpec/Body/26_glo_f.htm#form" target="_blank">http://www.lispworks.com/documentation/HyperSpec/Body/26_glo_f.htm#form</a>
           </dd>
-          <dt><a href="http://l1sp.org/cl/~a">l1sp.org/cl/~a</a></dt>
+          <dt><a href="http://l1sp.org/cl/~a" target="_blank">l1sp.org/cl/~a</a></dt>
           <dd>
-            <a href="http://www.lispworks.com/documentation/HyperSpec/Body/22_cda.htm">http://www.lispworks.com/documentation/HyperSpec/Body/22_cda.htm</a>
+            <a href="http://www.lispworks.com/documentation/HyperSpec/Body/22_cda.htm" target="_blank">http://www.lispworks.com/documentation/HyperSpec/Body/22_cda.htm</a>
           </dd>
-          <dt><a href="http://l1sp.org/cl/loop/named">l1sp.org/cl/loop/named</a></dt>
+          <dt><a href="http://l1sp.org/cl/loop/named" target="_blank">l1sp.org/cl/loop/named</a></dt>
           <dd>
-            <a href="http://www.lispworks.com/documentation/HyperSpec/Body/06_aga.htm">http://www.lispworks.com/documentation/HyperSpec/Body/06_aga.htm</a>
+            <a href="http://www.lispworks.com/documentation/HyperSpec/Body/06_aga.htm" target="_blank">http://www.lispworks.com/documentation/HyperSpec/Body/06_aga.htm</a>
           </dd>
         </dl>
 
